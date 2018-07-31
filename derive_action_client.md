@@ -4,16 +4,17 @@ import actionlib
 
 import armlib
 """
-{
-  'kinova': {
-    'action_msg': KinovaActionMsg,
-    'get_goal': function (target) => KinovaGoalMsg,
-    'transition_handler': function (goal_handler) => {...},
-    'feedback_handler': function (goal_handler, feedback) => {...},
-    'timeout': 1e6
-   },
-   ...
-}
+armlib:
+  {
+    'kinova': {
+      'action_msg': KinovaActionMsg,
+      'get_goal': function (target) => KinovaGoalMsg,
+      'transition_handler': function (goal_handler) => {...},
+      'feedback_handler': function (goal_handler, feedback) => {...},
+      'timeout': 5
+     },
+     ...
+  }
 """
 
 hardware_type = 'kinova'
