@@ -17,6 +17,9 @@ armlib:
   }
 """
 
+"""
+This is the entry point to the entire code
+"""
 hardware_type = 'kinova'
 
 target = {
